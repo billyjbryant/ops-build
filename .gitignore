@@ -1,0 +1,15 @@
+.platform
+.devenv
+.testenv
+.sandbox_uuid
+images/*
+src/*
+.*.swp
+build
+tools/bin/python
+tools/bin/corkscrew
+nfsroot*
+*~
+
+# Exclude layers providing additional functionality ...
+# ... and keep the layers providing basic OpenSwitch functionality

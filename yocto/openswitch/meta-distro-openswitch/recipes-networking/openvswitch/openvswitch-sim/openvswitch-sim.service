@@ -1,0 +1,14 @@
+# Copyright (C) 2015 Hewlett Packard Enterprise Development LP
+
+[Unit]
+Description=Open vSwitch Switch Daemon for the Simulator
+After=ovsdb-server-sim.service ops-init.service
+
+[Service]
+Type=simple
+ExecStart=/sbin/ip netns exec swns /opt/openvswitch/sbin/ovs-vswitchd-sim --no-chdir --pidfile
+WorkingDirectory=/var/run/openvswitch-sim
+Restart=on-abort
+
+[Install]
+WantedBy=multi-user.target
