@@ -1,3 +1,0 @@
-#!/bin/bash
-ovsBr='lxcbr'
-ovs-vsctl --if-exists del-port ${ovsBr} $5

@@ -1,3 +1,0 @@
-location /metrics {
-  proxy_pass http://localhost:9100;
-}

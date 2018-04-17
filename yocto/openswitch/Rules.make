@@ -14,7 +14,7 @@
 
 DISTRO_HELP_LINK=http://www.openswitch.net
 
-DISTRO_ARCHIVE_ADDRESS?=archive.openswitch.net
+DISTRO_ARCHIVE_ADDRESS?=archive.openswitch.net/old
 DISTRO_SSTATE_ADDRESS?=sstate.openswitch.net
 DISTRO_FS_TARGET = openswitch-image
 
